@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Checkout Page</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .checkout-box {
+      max-width: 500px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border: 2px solid;
+    }
+
+    .checkout-box h2 {
+      margin-bottom: 20px;
+    }
+
+    .summary {
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+
+    .confirm-button {
+      padding: 10px 20px;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .confirm-button:hover {
+      background-color: #388e3c;
+    }
+  </style>
+</head>
+<body>
+  <div class="checkout-box">
+    <h2>Checkout Summary</h2>
+    <div class="summary">
+       <strong>Product:</strong> Samsung Washing Machine Drum<br>
+       <strong>Price:</strong> ₹28,999<br>
+       <strong>Delivery:</strong> Free within 3–5 days
+    </div>
+    <button class="confirm-button" onclick="confirmOrder()">Confirm Order</button>
+  </div>
+
+  <script>
+    function confirmOrder() {
+      alert("Your order has been placed successfully!");
+      window.location.href = "index.html"; 
+    }
+  </script>
+</body>
+</html>
