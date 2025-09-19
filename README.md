@@ -22,9 +22,6 @@ A sleek and responsive product card web component designed to showcase washing m
 
 Ideal for online appliance stores, product showcases, or UI/UX practice. This component can be reused across multiple product listings with minimal changes.
 
-## 📸 Preview
-
-*(Insert screenshot or GIF of the product card here)*
 
 ##  Future Enhancements
 
