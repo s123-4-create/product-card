@@ -17,6 +17,8 @@ A sleek and responsive product card web component designed to showcase washing m
 - CSS for styling and layout  
 - JavaScript for interactivity and dynamic content
 
+## Preview
+![Scrrenshot of output](https://github.com/s123-4-create/product-card/blob/main/Screenshot%202025-09-19%20234327.png)
 
 ##  Use Case
 
